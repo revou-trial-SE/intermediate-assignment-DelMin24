@@ -1,104 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-.logo{
-    order: 1;
-    font-size: 2rem;
-    font-weight: 800;
+.jumbotron{
+    padding: 2rem 1rem;
+    background-color: #e2edff;
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-nav ul{
-    display: flex;
-    order: 2;
-}
-
-nav ul a{
-    color: black;
-    font-size: 1.5rem;
-    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .container{
-    height: 500px;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+    position: sticky;
 }
 
-.container img{
-    width: 100%;
-    gap: 50px;
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px;
 }
 
-.hero_text{
-    width: 80%;
-
-}
-.hero_text h1{
-    font-size: 3.3rem;
-    margin-bottom: 10px;
-    color: blue;
+h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 5px;
 }
 
-button{
-    padding: 1em 2em 1em;
-    border-radius: 5px;
-    margin: 10px;
-    border: none;
-    background-color: blue;
-    color: white;
-    font-weight: 800;
-    font-size: 0.8em;
-    text-transform: uppercase;
+.card{
     text-align: center;
-    box-shadow: 0cm -2cm green inset;
+    background-color: #e2edff;
+    border-radius: 10px;
+    padding: 5px;
 }
 
-button:hover{
-    background-color: transparent;
-    color: teal;
-    border: 3px solid wheat;
-    cursor: pointer;
+.card-text{
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
-@media (max-width:878px) {
-    .container{
-        margin-top: 10px;
-        flex-direction: column;
-    }
-    .hero_text{
-        width: 100%;
-        text-align: center;
-    }
-    .hero_text h1{
-        font-size: 3rem;
-    }
-}
-
-@media (max-width:678px) {
-    .hero_text h1{
-        font-size: 2rem;
-    }
-}
-
-@media (max-width:428px) {
-    nav ul{
-        display: none;
-    }
+#project{
+    background-color: #e2edff;
 }
