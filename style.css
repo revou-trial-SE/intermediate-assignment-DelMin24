@@ -56,3 +56,49 @@ nav ul a{
     color: blue;
 }
 
+button{
+    padding: 1em 2em 1em;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0cm -2cm green inset;
+}
+
+button:hover{
+    background-color: transparent;
+    color: teal;
+    border: 3px solid wheat;
+    cursor: pointer;
+}
+
+@media (max-width:878px) {
+    .container{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .hero_text{
+        width: 100%;
+        text-align: center;
+    }
+    .hero_text h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:678px) {
+    .hero_text h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:428px) {
+    nav ul{
+        display: none;
+    }
+}
